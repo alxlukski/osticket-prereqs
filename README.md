@@ -29,8 +29,7 @@ When creating the VM, allow it to create a new Virtual Network (Vnet)
 
 Part 2 (Installation)
 
-Open this: Installation Files
-We will use these files to install osTicket and some of the dependencies. I’m using this offline version to make sure everyone is using the same version of all the files :)
+osTicket Installation Files: https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
 
 Install / Enable IIS in Windows WITH
 CGI and Common HTTP Features
@@ -130,25 +129,25 @@ End Users osTicket URL: http://localhost/osTicket/
 <h2>Installation Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+![image](https://github.com/alxlukski/osticket-prereqs/assets/150772204/0fd25c29-85e5-4106-81b0-e0147d0c4355)
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+In this screenshot, we activate Internet Information Services features inside of our Windows 10 Virtual Machine, in order to be able to install and run osTicket.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+![image](https://github.com/alxlukski/osticket-prereqs/assets/150772204/fafa9e55-10c8-497e-bf31-d95d61b2d689)
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+In this screenshot, after installing mysql, we create a root account in order to access the configuration for osTicket.
+</p>
+<br />
+
+<p>
+![image](https://github.com/alxlukski/osticket-prereqs/assets/150772204/246cff7b-430d-4afc-bbd6-09b20614873c)
+</p>
+<p>
+In this screenshot, we use HeidiSQL to add osTicket as a database so that we can access its functions.
 </p>
 <br />
