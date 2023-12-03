@@ -86,7 +86,7 @@ Click “Enable or disable an extension”
 Enable: php_imap.dll
 Enable: php_intl.dll
 Enable: php_opcache.dll
-Refresh the osTicket site in your browse, observe the changes
+Refresh the osTicket site in your browser, observe the changes
 
 Rename: ost-config.php
 From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
@@ -112,7 +112,6 @@ MySQL Username: root
 MySQL Password: Password1
 Click “Install Now!”
 
-Congratulations, hopefully it is installed with no errors!
 Browse to your help desk login page: http://localhost/osTicket/scp/login.php
 
 End Users osTicket URL:
