@@ -124,29 +124,3 @@ Set Permissions to “Read” only: C:\inetpub\wwwroot\osTicket\include\ost-conf
 Notes:
 Browse to your help desk login page: http://localhost/osTicket/scp/login.php  
 End Users osTicket URL: http://localhost/osTicket/ 
-
-<h2>Installation Steps</h2>
-
-<p>
-![image](https://github.com/alxlukski/osticket-prereqs/assets/150772204/0fd25c29-85e5-4106-81b0-e0147d0c4355)
-</p>
-<p>
-In this screenshot, we activate Internet Information Services features inside of our Windows 10 Virtual Machine, in order to be able to install and run osTicket.
-</p>
-<br />
-
-<p>
-![image](https://github.com/alxlukski/osticket-prereqs/assets/150772204/fafa9e55-10c8-497e-bf31-d95d61b2d689)
-</p>
-<p>
-In this screenshot, after installing mysql, we create a root account in order to access the configuration for osTicket.
-</p>
-<br />
-
-<p>
-![image](https://github.com/alxlukski/osticket-prereqs/assets/150772204/246cff7b-430d-4afc-bbd6-09b20614873c)
-</p>
-<p>
-In this screenshot, we use HeidiSQL to add osTicket as a database so that we can access its functions.
-</p>
-<br />
